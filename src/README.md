@@ -48,3 +48,10 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Copilot MCP Integration
+
+This repository is configured to work with GitHub Copilot's MCP capabilities using `.vscode/mcp.json`.
+
+- The `.vscode/mcp.json` file points Copilot to the GitHub MCP server.
+- Use Copilot Chat in Agent mode to interact with repository-aware tools and follow the exercise instructions.
